@@ -80,25 +80,26 @@
 
   Предложеный скрипт выводит в терминал все PID из каталога /proc/
   Вывод:
-  artem@mechrevo:~$ bash proc_pid.sh 
-PID      PPID     STATE  COMMAND
--------  -------  -----  ----------------------------------------
-1        0        S      systemd
-10       2        I      kworker/0:0H-kblockd
-100      2        S      cpuhp/14
-101      2        S      idle_inject/14
-10138    2852     S      user-session-he
-102      2        S      migration/14
-10224    10138    S      snapd-desktop-i
-1026     2        I      kworker/R-cfg80211
-103      2        S      ksoftirqd/14
-105      2        I      kworker/14:0H-kblockd
-106      2        S      cpuhp/15
-107      2        S      idle_inject/15
-10769    2852     S      ptyxis
-10776    10769    S      ptyxis-agent
-108      2        S      migration/15
-10803    10776    S      bash
+  
+         artem@mechrevo:~$ bash proc_pid.sh 
+       PID      PPID     STATE  COMMAND
+       -------  -------  -----  ----------------------------------------
+       1        0        S      systemd
+       10       2        I      kworker/0:0H-kblockd
+       100      2        S      cpuhp/14
+       101      2        S      idle_inject/14
+       10138    2852     S      user-session-he
+       102      2        S      migration/14
+       10224    10138    S      snapd-desktop-i
+       1026     2        I      kworker/R-cfg80211
+       103      2        S      ksoftirqd/14
+       105      2        I      kworker/14:0H-kblockd
+       106      2        S      cpuhp/15
+       107      2        S      idle_inject/15
+       10769    2852     S      ptyxis
+       10776    10769    S      ptyxis-agent
+       108      2        S      migration/15
+       10803    10776    S      bash
 ....
 
 
